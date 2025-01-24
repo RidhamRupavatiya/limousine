@@ -1,0 +1,33 @@
+/* General form layout */
+#car-booking-form .form-label {
+    text-align: left;  /* Default left alignment for labels */
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 767px) {
+    /* Ensure labels are above the inputs, left-aligned */
+    #car-booking-form .col-md-6 {
+        display: block;  /* Make each form group block-level */
+        margin-bottom: 15px;  /* Add space between each form group */
+    }
+
+    /* Adjust label alignment to the left */
+    #car-booking-form .form-label {
+        text-align: left;
+        display: block;  /* Labels should be block-level to appear above input fields */
+        margin-bottom: 5px;  /* Space between label and input */
+    }
+
+    /* Ensure the input fields take up the full width */
+    #car-booking-form .form-control,
+    #car-booking-form .form-select,
+    #car-booking-form textarea {
+        width: 100%;
+    }
+
+    /* Adjust the submit button to be centered and responsive */
+    #car-booking-form .btn-submit {
+        width: 100%;
+        padding: 12px;
+    }
+}

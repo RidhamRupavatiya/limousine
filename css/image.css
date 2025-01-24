@@ -1,0 +1,18 @@
+/* Media Query for Screens Between 765px and 1130px */
+@media (min-width: 765px) and (max-width: 1130px) {
+    /* Make the image responsive within this range */
+    .effect-jazz img {
+        width: 100%;  /* Ensure image takes full width of its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Optional: Adjust the size of the container or the surrounding elements if needed */
+    .about_h1l {
+        max-width: 100%;
+    }
+
+    /* Adjust any other layout or positioning as necessary for this screen range */
+    .about_h1l1 {
+        margin-bottom: 20px;  /* Add some margin to ensure good spacing */
+    }
+}
