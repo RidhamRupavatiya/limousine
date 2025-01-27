@@ -365,7 +365,8 @@ padding:150px 150px;
     }
 
     /* Adjust font sizes */
-    #footer .footer_1i h4, 
+    #footer .footer_1i h4,
+    #footer .footer_1i h5, 
     #footer .footer_1i h6, 
     #footer .footer_1i p {
         font-size: 14px;

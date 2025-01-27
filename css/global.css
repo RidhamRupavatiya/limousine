@@ -461,7 +461,7 @@ text-align:center;
 .blog_h_1m1{
 margin-bottom:15px;
  }
-#footer h4{
+#footer h4, h5{
 text-align:center; 
  }
 #footer .button{
@@ -528,7 +528,7 @@ font-size:14px;
 #footer h6{
 font-size:14px; 
  }
-#footer h4{
+#footer h4, h5, h5{
 font-size:20px; 
  }
  }
